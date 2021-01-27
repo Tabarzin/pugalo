@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  
+  font-family: 'CyrillicGoth', arial;
+  font-size: 48px;
+ 
+}
+
+.main{
+  display: flex;
+  background-color:#46417B; //#F7D7A6;
+
+}
+.image-column {
+  flex: 40%;
+  
+}
+
+img {
+width: 600px;
+}
+
+
+.titles-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 70px auto auto;
+  
+  
+
+}
+
+@font-face {
+  font-family: 'CyrillicGoth';
+  src: url('fonts/CyrillicGoth.ttf');
+
+}
+
+h3 {
+  font-family: 'CyrillicGoth', arial;
+  color: #BB3438;
+  font-size: 30px;
+  display: flex;
+  
+  text-align: center; 
+}
+
+h4 {
+  font-family: 'CyrillicGoth', arial;
+  color: #D6090A;
+  font-size: 20px;
+  color: #8E8057;
+  display: flex;
+ margin-top: 20px; 
+}
+
+footer {
+  font-size: 10px;
+  color: #BB3438;
+}
+
+
+.versions {
+  margin-top: 20px;
+  font-size: 25px;
+  
+}
+a {
+color: white; 
+}
+
+.main1{
+  display: flex;
+  background-color:#2D3437; //#F7D7A6;
+
+}
+
+.main2{
+  display: flex;
+  background-color:#24282B; //#F7D7A6;
+
+}
+
+.main3{
+  display: flex;
+  background-color:#46417B; //#F7D7A6;
+
+}
+
+.font2 {
+  font-family: 'CyrillicGoth', arial;
+  color: #C0A073;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  margin-top: 20px; 
+
+}
+
+.main3 {
+  background-color: #6A7581;
+
+}
+
+.font3 {
+  color: #D4CEE7;
+  font-family: 'CyrillicGoth', arial;
+  
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  margin-top: 20px; 
+}
+
+.font4 {
+  font-family: 'CyrillicGoth', arial;
+  color:#62ABA8;
+  font-size: 20px;
+  
+  display: flex;
+  margin-top: 20px;
+}
