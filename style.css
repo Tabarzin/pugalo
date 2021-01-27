@@ -11,18 +11,18 @@ body {
  
 }
 
-.main{
+.main {
   display: flex;
-  background-color:#46417B; //#F7D7A6;
+  background-color:#46417B;
 
 }
 .image-column {
-  flex: 40%;
-  
+  width: 55%;
+  display: flex;
 }
 
 img {
-width: 600px;
+  width: 600px;
 }
 
 
@@ -30,16 +30,13 @@ width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 70px auto auto;
-  
-  
-
+  margin-top: 25px;
+//  margin: 20px 70px auto auto;
 }
 
 @font-face {
   font-family: 'CyrillicGoth';
   src: url('fonts/CyrillicGoth.ttf');
-
 }
 
 h3 {
@@ -47,7 +44,6 @@ h3 {
   color: #BB3438;
   font-size: 30px;
   display: flex;
-  
   text-align: center; 
 }
 
@@ -57,7 +53,7 @@ h4 {
   font-size: 20px;
   color: #8E8057;
   display: flex;
- margin-top: 20px; 
+  margin-top: 20px; 
 }
 
 footer {
